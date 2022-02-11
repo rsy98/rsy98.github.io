@@ -1,0 +1,60 @@
+#+TITLE: 教学
+#+OPTIONS: toc:t ^:t tags:t f:t p:t author:t date:t html-postamble:nil tex:dvipng
+#+AUTHOR: Ran Shi-Yong
+#+SEQ_TODO: NEXT(n/!) TODO(t@/!) WAITING(w@/!) SOMEDAY(s/!) PROJ(p) | DONE(d@) CANCELLED(c)
+#+TAGS: PHONE(o) EXCERCISE(e) COMPUTER(c) HOME(h) RESEARCH(r) SHOPPING(s) FAMILY(f) URGENT(u) TEACHING(t) STUDY(s)
+#+COLUMNS: %7TODO(To do) %32ITEM(Task) %TAGS(Tags) %6CLOCKSUM(Clock) %8Effort(Effort)
+#+PROPERTY: Effort_ALL 0:05 0:10 0:15 0:20 0:30 1:00 2:00 4:00 6:00 8:00
+#+PROPERTY: Rating_ALL + ++ +++ ++++ +++++
+#+LATEX_COMPILER: xelatex
+#+LATEX_HEADER: \documentclass{ctexart}
+#+LATEX_HEADER_EXTRA: \usepackage{RanArticle}
+#+LATEX_HEADER: \newcommand{\dif}{\,\mathrm{d}}
+#+LANGUAGE: zh-CN
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://gongzhitaao.org/orgcss/org.css"/>
+
+* 教学
+[[file:./index.html][主页]]
+# ** 大学物理
+# *** 知识框架
+# + [[file:teaching/大学物理-知识纲要.pdf][大学物理知识纲要]]
+# + [[file:teaching/质点运动学知识框架图.pdf][质点运动学知识框架]]
+# + [[file:teaching/质点动力学知识框架图.pdf][质点动力学知识框架]]
+# + [[file:teaching/刚体定轴转动知识框架图.pdf][刚体定轴转动知识框架]]
+# + [[file:teaching/机械振动知识框架图.pdf][机械振动知识框架]]
+# + [[file:teaching/机械波知识框架图.pdf][机械波知识框架]]
+# *** 课外阅读
+# *** 答疑
+# *** 练习
+# *** 答案
+# *** 绪论
+# **** 什么是物理学
+# **** 物理学研究对象
+# **** 物理学研究尺度
+# **** 物理学研究方法
+# **** 物理学与工业文明
+# **** 怎样学习物理学
+# *** 矢量代数
+# **** 矢量与标量
+# **** 矢量加减法
+# **** 矢量点积
+# **** 矢量叉积
+# **** 矢量的导数
+# **** 矢量的积分
+# *** 量纲
+# **** 测量单位
+# **** 量纲
+# *** 质点运动学
+# *** 质点动力学
+# *** 刚体力学基础
+# *** 机械振动
+# *** 机械波
+# *** 静电场
+# *** 稳恒磁场
+# *** 电磁感应
+# ** 近代物理实验
+# ** 物理与人文文化专题
+# ** 研究生论文写作
+* 联系方式
++ E-Mail: rsy98 at 163.com; syran at wzu.edu.cn
++ Department of Physics, Wenzhou University, Wenzhou 325032, China
