@@ -11,7 +11,7 @@
 #+LATEX_HEADER_EXTRA: \usepackage{RanArticle}
 #+LATEX_HEADER: \newcommand{\dif}{\,\mathrm{d}}
 #+LANGUAGE: zh-CN
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://gongzhitaao.org/orgcss/org.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./css/org.css"/>
 
 * 研究
 ** 科学研究
