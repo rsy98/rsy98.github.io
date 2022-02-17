@@ -1,0 +1,294 @@
+#+TITLE: 大学物理 教学网页
+#+OPTIONS: toc:t ^:t tags:t f:t p:t author:t date:t html-postamble:nil  tex:t
+# #+OPTIONS: tex:imagemagick
+#+AUTHOR: Ran Shi-Yong
+#+SEQ_TODO: NEXT(n/!) TODO(t@/!) WAITING(w@/!) SOMEDAY(s/!) PROJ(p) | DONE(d@) CANCELLED(c)
+#+TAGS: PHONE(o) EXCERCISE(e) COMPUTER(c) HOME(h) RESEARCH(r) SHOPPING(s) FAMILY(f) URGENT(u) ../ARCHIVE/COLLEGE-PHYSICS(t) STUDY(s)
+#+COLUMNS: %7TODO(To do) %32ITEM(Task) %TAGS(Tags) %6CLOCKSUM(Clock) %8Effort(Effort)
+#+PROPERTY: Effort_ALL 0:05 0:10 0:15 0:20 0:30 1:00 2:00 4:00 6:00 8:00
+#+PROPERTY: Rating_ALL + ++ +++ ++++ +++++
+#+LATEX_COMPILER: xelatex
+#+LATEX_HEADER: \documentclass{ctexart}
+#+LATEX_HEADER_EXTRA: \usepackage{RanArticle}
+#+LATEX_HEADER: \newcommand{\dif}{\,\mathrm{d}}
+#+LANGUAGE: zh-CN
+# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/org.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../src/bigblow_theme/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../src/bigblow_theme/css/bigblow.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../src/bigblow_theme/css/hideshow.css"/>
+
+#+HTML_HEAD: <script type="text/javascript" src="../src/bigblow_theme/js/jquery-1.11.0.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="../src/bigblow_theme/js/jquery-ui-1.10.2.min.js"></script>
+
+#+HTML_HEAD: <script type="text/javascript" src="../src/bigblow_theme/js/jquery.localscroll-min.js"></script>
+# #+HTML_HEAD: <script type="text/javascript" src="../src/bigblow_theme/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+# #+HTML_HEAD: <script type="text/javascript" src="../src/bigblow_theme/js/jquery.zclip.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="../src/bigblow_theme/js/bigblow.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="../src/bigblow_theme/js/hideshow.js"></script>
+# #+HTML_HEAD: <script type="text/javascript" src="../src/lib/js/jquery.stickytableheaders.min.js"></script>
+#+BEGIN_HTML
+\(
+\newcommand{\dif}{\,\mathrm{d}}
+\newcommand{\ue}{\mathrm{e}}
+\newcommand{\bm}[1]{\vec{#1}}
+\newcommand{\SI}[2]{#1~\mathrm{#2}}
+\newcommand{\si}[1]{~\mathrm{#1}}
+\newcommand{\tx}[1]{\mathbf{#1}}
+\newcommand{\J}{\mathrm{J}}
+\newcommand{\s}{\mathrm{s}}
+\newcommand{\m}{\mathrm{m}}
+\newcommand{\mm}{\mathrm{mm}}
+\newcommand{\kg}{\mathrm{kg}}
+\newcommand{\pN}{\mathrm{pN}}
+\newcommand{\N}{\mathrm{N}}
+\)
+#+END_HTML
+
+* 绪论
+** 什么是物理学
+物理学起源于古希腊的自然哲学. 物理学的英文名 Physics 由拉丁文 Physica 演变而来. 而 Physica 一词源自于古希腊文，就是“自然”的意思．古希腊人把所有对自然界的观察和 思考，笼统地包含在一门学问里，那就是自然哲学, 包括现在的物理、化学、天文、地学，生 物等．牛顿时代科学和哲学还是一家，所以牛顿的划时代的著作名为《自然哲学的数学原理》．
+
+用现代的物理学语言表述, 物理学是一门研究物质结构、相互作用及其运动规律的基础学科.
+** 物理学研究对象
+** 物理学研究尺度
+** 物理学的特点
++ 是一门实验科学, 理论要接受实验的检验.
++ 基本结构: 概念 定律 思想
++ 利用模型来研究和解决
++ 与数学紧密结合.
+** 物理学研究方法
+物理学有一套成熟的获得知识、组织知识和运用知识的研究方法。
+
+几种典型的物理学研究方法.
+- 实验观测归纳
+- 理想化方法
+- 科学假说方法
+** 物理学与工业文明
+** 怎样学习物理学
+* 矢量代数
+** 矢量与标量
+** 矢量加减法
+** 矢量点积
+** 矢量叉积
+** 矢量的导数
+** 矢量的积分
+* 量纲
+** 测量单位
+** 量纲
+* 质点运动学
+* 质点动力学
+* 刚体力学基础
+* 机械振动
+* 机械波
+* 静电场
+* 稳恒磁场
+* 电磁感应
+* 知识框架
+# + [[file:../archive/college-physics/大学物理-知识纲要.pdf][大学物理知识纲要]]
++ [[file:../archive/college-physics/质点运动学知识框架图.pdf][质点运动学知识框架]]
++ [[file:../archive/college-physics/质点动力学知识框架图.pdf][质点动力学知识框架]]
++ [[file:../archive/college-physics/刚体定轴转动知识框架图.pdf][刚体定轴转动知识框架]]
++ [[file:../archive/college-physics/机械振动知识框架图.pdf][机械振动知识框架]]
++ [[file:../archive/college-physics/机械波知识框架图.pdf][机械波知识框架]]
+* 课外阅读
+** 保守力的判断标准
+从一个简单的实例开始. 考虑力 $\bm{F} = x \vec{i} + y \vec{j}$ 做功, 我们研究该力从坐标原点\((0,0)\)(A)沿 y 轴到$(0,1)$(C)路径(AC 路径), 以及从原点开始沿 $y = x$ 直线到 $(1,1)$ (B)然后再沿 x 轴负方向到 C 点的折线路径(ABC)的做功.
+
+如果质点运动路径是 AC,则该力做功为
+\begin{equation}
+W = \int_0^0 F_x \dif x + \int_0^1 F_y \dif y = \int_0^1 y \dif y = \SI{0.5}{\J}
+\end{equation}
+
+如果质点运动路径是满足 $y = x$ 函数关系的 AB 路线,再由 B 到 C( $y = 1$)路线,则该力做功为
+\begin{equation*}
+\begin{aligned}
+W = W_{AB} + W_{BC} &= (\int_0^1 F_x \dif x + \int_0^1 F_y \dif y) + (\int_1^0 F_x \dif x + \int_1^1 F_y \dif y) \\
+&= (\int_0^1 x \dif x + \int_0^1 y \dif y) + (\int_1^0 x \dif x + \int_1^1 y \dif y) \\
+&= (0.5 + 0.5) + (-0.5+0) \\
+&= \SI{0.5}{\J}
+\end{aligned}
+\end{equation*}
+
+可以验证,如果是其他路径,只要始末位置为 A、C 两点, 该力做功与路径无关,也就是说该力是保守力.
+
+推广本例,有如下结论:只要该力各方向的分力是该 *方向变量的单值函数*, 那么该力就是保守力.即该力满足:
+\[
+\vec{F} = f(x) \vec{i} + g(y) \vec{j} + h(z) \vec{k}
+\]
+形式.
+
+实例:
+\[
+\vec{F} = x^2 \vec{i} + y^2 \vec{j} + z^2 \vec{k}
+\]
+是保守力.
+
+反例(教材第 33 页例题):
+\[
+\vec{F} = (y^2 - x^2) \vec{i} + 3xy \vec{j}
+\]
+严谨地从数学上判断一个力是否是保守力的标准需要用到数学上的旋度概念, 即
+
+\begin{equation}
+\nabla \times \bm{F} = \left|\begin{array}{ccc}
+\bm{i} & \bm{j} & \bm{k}\\
+\dfrac{\partial}{\partial x} & \dfrac{\partial}{\partial y} & \dfrac{\partial}{\partial z} \\
+F_{x} & F_{y} & F_{z}
+\end{array}\right| = (\dfrac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z})\bm{i} + (\frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x})\bm{j}+(\frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y})\bm{k} = 0
+\end{equation}
+
+用数学术语, $\nabla \times \bm{F}$ 称为力 $\bm{F}$ 的 *旋度*.
+
+因此, 判断力是否为保守力的充分必要条件是:该力的旋度为 0, 即$\nabla \times \bm{F} = 0$.
+** 简谐振动动力学方程的求解
+*** 二阶线性齐次微分方程的通解
+以弹簧振子为例,其动力学方程是二阶线性齐次微分方程, 根据课程推导有:
+\begin{equation}
+\label{equ:main}
+\frac{\dif^2 x}{\dif t^2} + \omega^2 x = 0 \quad (\text{弹簧振子:}\omega^2 = \frac{k}{m})
+\end{equation}
+
+根据微分方程理论, 如果 $x_1(t)$ 和 $x_2(t)$ 是该方程的两个 *线性无关* (两个解比值不为常数)的特解, 则
+\begin{equation}
+\label{equ:s}
+x = C_1 x_1(t) + C_2 x_2(t)
+\end{equation}
+
+就是该微分方程的 *通解* .
+
+那么接下来的事情是如何求得两个特解以及确定常数 $C_1, C_2$.
+
+*** 特征方程
+当  $r$  为常数时, 指数函数 $x = \ue^{rt}$ 与它的各阶导数都只相差一个常数因子. 利用指数函数的这一性质, 我们可以用 $x = \ue^{rt}$ 函数尝试求解微分方程, 看能否取得合适的常数  $r$  满足方程式\ref{equ:main}.
+
+利用该函数可得:
+\begin{equation}
+\label{equ:1}
+\dfrac{\dif^2 x}{\dif t^2} = r^2 \ue^{rt}
+\end{equation}
+
+代入到式\ref{equ:main},得:
+\begin{equation}
+\label{equ:2}
+(r^2 + \omega^2)\ue^{rt} = 0.
+\end{equation}
+
+因为 $\ue^{rt}\neq 0$, 所以
+\begin{equation}
+\label{equ:3}
+r^2 + \omega^2 = 0.
+\end{equation}
+
+可见, 只要 $r$ 满足式\ref{equ:3}, 函数 $x = \ue^{rt}$ 就是微分方程的解, 我们把式\ref{equ:3}称为微分方程(\ref{equ:main})的 *特征方程* .
+
+很明显, 特征方程有两个共轭复数解
+\begin{equation}
+\label{equ:4}
+r_1 = \omega i, r_2 = -\omega i
+\end{equation}
+
+因此式\ref{equ:main}的两个特解为
+\begin{equation}
+\label{equ:5}
+x_1 = \ue^{\omega t i}, x_2 = \ue^{- \omega t i},
+\end{equation}
+
+根据式\ref{equ:s},方程的通解为
+\begin{equation}
+\label{equ:ss}
+x = C_1 \ue^{\omega t i} + C_2 \ue^{- \omega t i}
+\end{equation}
+
+
+*** 欧拉公式的应用
+可以用欧拉公式
+\begin{equation}
+\label{equ:o}
+\ue^{i \theta} = \cos \theta + i \sin\theta
+\end{equation}
+
+将 $x_1 = \ue^{\omega t i}$ 和 $x_2 = \ue^{-\omega t i}$ 改写为
+\begin{equation}
+\label{equ:o1}
+\begin{aligned}
+x_1 = \ue^{\omega t i} &= \cos (\omega t) + i \sin(\omega t)\\
+x_2 = \ue^{-\omega t i} &= \cos (\omega t) - i \sin(\omega t)
+\end{aligned}
+\end{equation}
+
+
+上述两式联立得到
+\begin{equation}
+\begin{aligned}
+x_1^{\prime} &= \frac{x_1 + x_2}{2} = \cos (\omega t)\\
+x_2^{\prime} &= \frac{x_1 - x_2}{2i} = \sin (\omega t)
+\end{aligned}
+\end{equation}
+
+
+$x_1^{\prime}, x_2^{\prime}$ 也是微分方程的 *两个线性无关的特解* , 因此根据式\ref{equ:s}, 方程(\ref{equ:main})的通解为
+\begin{equation}
+\label{equ:solution}
+x(t) = C_1 \cos (\omega t) + C_2 \sin(\omega t).
+\end{equation}
+
+应用简谐振动的初始条件, 即$t = 0$时, $x = x_0$, $v = \dfrac{\dif x}{\dif t} = v_0$, 可以推得:
+\begin{equation}
+\label{equ:6}
+C_1 = x_0, C_2 = v_0/\omega.
+\end{equation}
+
+因此所求的通解为:
+\begin{equation}
+\label{equ:f}
+x(t) = x_0 \cos (\omega t) + \frac{v_0}{\omega} \sin(\omega t) = \sqrt{x_0^2 + \frac{v_0^2}{\omega^2}}\cos(\omega t + \varphi_0) = A \cos(\omega t + \varphi_0).
+\end{equation}
+其中
+\[
+A = \sqrt{x_0^2 + \frac{v_0^2}{\omega^2}}, \tan \varphi_0 = - \frac{v_0}{\omega x_0}.
+\]
+完毕.
+
+* 作业
+* 思考题
+* 练习
+* 答案
+** 质点运动学教材习题答案
+*** 选择题
+DDBDD
+*** 填空题
+*** 计算题
+** 质点动力学教材习题答案
+*** 选择题
+*** 填空题
+*** 计算题
+** 刚体力学基础教材习题答案
+*** 选择题
+*** 填空题
+*** 计算题
+** 机械振动与机械波教材习题答案
+*** 选择题
+DDBDD
+*** 填空题
+*** 计算题
+** 静电场教材习题答案
+*** 选择题
+DDBDD
+*** 填空题
+*** 计算题
+** 稳恒磁场教材习题答案
+*** 选择题
+DDBDD
+*** 填空题
+*** 计算题
+** 变化的电磁场教材习题答案
+*** 选择题
+DDBDD
+*** 填空题
+*** 计算题
+* 联系方式
++ E-Mail: rsy98 at 163.com; syran at wzu.edu.cn
++ 温州大学数理学院物理系
+* 答疑安排
++ 答疑地点: 南 1B127, 时间请提前预约。
++ 一般问题可通过 QQ 教学群直接咨询, 不用加我好友。
