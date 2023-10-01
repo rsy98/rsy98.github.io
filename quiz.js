@@ -58,16 +58,18 @@ document.getElementById("questions").innerHTML = html;
 // 提交表单时计算分数并显示结果
 function submitForm() {
 	var name = document.getElementById("name").value;
-	var score = 0;
-	for (var i = 0; i < order.length; i++) {
-		var q = questions[order[i]];
-		var answer = document.querySelector("input[name='q" + order[i] + "']:checked");
-		if (answer && answer.value == q.correctAnswer) {
-			score++;
-		}
-	}
-	var result = document.getElementById("result");
-	result.innerHTML = name + "，您的得分是" + score + "/" + order.length + "。";
+	// var score = 0;
+	// for (var i = 0; i < order.length; i++) {
+	// 	var q = questions[order[i]];
+	// 	var answer = document.querySelector("input[name='q" + order[i] + "']:checked");
+	// 	if (answer && answer.value == q.correctAnswer) {
+	// 		score++;
+	// 	}
+	// }
+	// var result = document.getElementById("result");
+	// result.innerHTML = name + "，您的得分是" + score + "/" + order.length + "。";
+	// result.style.display = "block";
+	result.innerHTML = name + "，您的得分是" + '5' + "/" + order.length + "。";
 	result.style.display = "block";
 	return false;
 }
